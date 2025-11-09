@@ -30,10 +30,10 @@ class EnterpriseConfigurationManager {
              * Configure your Lavalink server for audio processing
              */
             lavalink: {
-                host: EnvironmentVariableProcessor.LAVALINK_HOST || "212.227.65.132", 
-                port: EnvironmentVariableProcessor.LAVALINK_PORT || 10534,       
-                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "S!_-@#$4720@#!=_", 
-                secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'true' || false
+                host: EnvironmentVariableProcessor.LAVALINK_HOST || "87.106.62.92", 
+                port: EnvironmentVariableProcessor.LAVALINK_PORT || 11642,       
+                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "glace", 
+                secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'false' || false
             },
             
             /**
@@ -102,3 +102,4 @@ module.exports = primaryApplicationConfiguration;
  * Use environment variables in production!
 
  */
+
