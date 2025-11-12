@@ -41,7 +41,7 @@ class EnterpriseConfigurationManager {
              * Customize your bot's appearance and basic behavior
              */
             bot: {
-                prefix: EnvironmentVariableProcessor.BOT_PREFIX || "$",  // 👈 prefix (!, ?, etc)
+                prefix: EnvironmentVariableProcessor.BOT_PREFIX || "*",  // 👈 prefix (!, ?, etc)
                 ownerIds: ["744844506326630420"],      // 👈 ADD YOUR DISCORD ID HERE
                 embedColor: 0x00AE86,               // 👈 Bot embed color (hex)
                 supportServer: "No 😴",    // 👈 Your support server link
@@ -102,5 +102,6 @@ module.exports = primaryApplicationConfiguration;
  * Use environment variables in production!
 
  */
+
 
 
