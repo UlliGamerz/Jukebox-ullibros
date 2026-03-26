@@ -33,7 +33,7 @@ class EnterpriseConfigurationManager {
                 host: EnvironmentVariableProcessor.LAVALINK_HOST || "162.19.133.164", 
                 port: EnvironmentVariableProcessor.LAVALINK_PORT || 7918,       
                 password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "D-Radio", 
-                secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'true' || false
+                secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'false' || false
             },
             
             /**
